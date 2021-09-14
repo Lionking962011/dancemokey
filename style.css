@@ -1,0 +1,56 @@
+.point
+{
+    background-color: rgb(245, 204, 204);
+    height: 200px;
+}
+
+label
+{
+    font-size: 20px;
+}
+
+#heading-text
+{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 50px;
+    color: lightsalmon;
+}
+i{
+    color: red;
+}
+
+#start
+{
+    width: 200px;
+}
+
+.footer
+{
+    position: fixed;
+    text-align: center;
+    color: lightslategray;
+    width: 100%;
+    font-size: 18px;
+    background-color: white;
+    line-height: 3;
+    bottom: 0px;
+    text-indent: 5px,10px,5px rgb(151,149,149);
+}
+
+#screen_error
+{
+    display: none;
+}
+
+@media(max-width:200px)
+{
+   #screen_error
+   {
+    display: inline-block;
+    font-size: 100px;
+   }
+   #body
+   {
+       display: none;
+   }
+}
